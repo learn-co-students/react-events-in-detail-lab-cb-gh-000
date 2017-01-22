@@ -6,8 +6,14 @@ const DelayedButton = require('./components/DelayedButton');
 
 ReactDOM.render(
   <div>
-    <CoordinatesButton />
-    <DelayedButton />
+    <CoordinatesButton onReceiveCoordinates ={
+      onReceiveCoordinates(coordonner){
+      console.log(coordonner);
+  }
+    }/>
+    <DelayedButton  onDelayedClick ={onDelayedClick(e){
+       console.log(e)
+    }} delay={1000} />
   </div>,
   document.getElementById('main')
 );
