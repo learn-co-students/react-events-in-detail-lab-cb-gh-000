@@ -1,6 +1,6 @@
-const React = require('react');
+import React from 'react';
 
-class CoordinatesButton extends React.Component {
+export default class CoordinatesButton extends React.Component {
   constructor() {
     super();
 
@@ -17,5 +17,3 @@ class CoordinatesButton extends React.Component {
     );
   }
 }
-
-module.exports = CoordinatesButton;

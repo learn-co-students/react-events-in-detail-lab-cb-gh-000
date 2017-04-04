@@ -1,6 +1,6 @@
-const React = require('react');
+import React from 'react';
 
-class DelayedButton extends React.Component {
+export default class DelayedButton extends React.Component {
   constructor() {
     super();
 
@@ -20,5 +20,3 @@ class DelayedButton extends React.Component {
     );
   }
 }
-
-module.exports = DelayedButton;
