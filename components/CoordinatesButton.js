@@ -19,3 +19,7 @@ export default class CoordinatesButton extends React.Component {
     );
   }
 }
+
+CoordinatesButton.propTypes = {
+  onReceiveCoordinates : React.PropTypes.func.isRequired,
+};

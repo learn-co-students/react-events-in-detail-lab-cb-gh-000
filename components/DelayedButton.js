@@ -24,3 +24,8 @@ export default class DelayedButton extends React.Component {
     );
   }
 }
+
+DelayedButton.propTypes = {
+  onDelayedClick : React.PropTypes.func.isRequired,
+  delay : React.PropTypes.number.isRequired,
+};
