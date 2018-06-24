@@ -1,4 +1,4 @@
-# React Events in Detail
+# React Eventis in Detail
 
 ## Overview
 
