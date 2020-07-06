@@ -10,7 +10,7 @@ provided in the resources section to learn more.
 ## Two Buttons To Rule Them All
 
 ![Using buttons](https://media.giphy.com/media/HraQGUYyPxDz2/giphy.gif)
-
+nn
 In this lab, you'll be working on two components — two buttons, to be more
 precise. These aren't just regular buttons, however! They both serve a very
 specific purpose.
